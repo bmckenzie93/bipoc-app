@@ -25,7 +25,7 @@ The **BIPOC Business Directory** is a web application designed to showcase BIPOC
 ### Installation
 
 #### 1. Clone the Repository
-- git clone https://github.com/yourusername/bipoc-app.git
+- git clone https://github.com/bmckenzie93/bipoc-app.git
 - cd bipoc-app
 
 #### 2. Set Up the Front End
