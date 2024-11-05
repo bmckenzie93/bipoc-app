@@ -3,6 +3,10 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import axios from 'axios';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import Button from 'react-bootstrap/Button';
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -34,6 +38,7 @@ function App() {
         </a>
       </div>
       <h1>BIPIC FRONT END</h1>
+      <Button variant="primary">react button</Button>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
