@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import MainLayout from './layouts/MainLayout';
 import Hero from './components/hero/Hero'; 
 import FeaturedBusinesses from './components/featuredBusinesses/FeaturedBusinesses';
+import Callout from './components/callout/Callout';
 
 
 
@@ -31,6 +32,7 @@ function App() {
     <MainLayout>
       <Hero />
       <FeaturedBusinesses />
+      <Callout />
     </MainLayout>
   )
 }

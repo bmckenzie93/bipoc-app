@@ -4,13 +4,13 @@ import { Container, Row, Col, Tabs, Tab, Carousel, Button, Image } from 'react-b
 const FeaturedBusinesses = () => {
   return (
     <Container className="my-5">
-      <Row className="text-center mb-3">
+      <Row>
         <Col>
-          <h2>Check out diners' favorite restaurants in Portland, Oregon</h2>
+          <h2>Featured Businesses</h2>
           <p className="text-muted">Updated on 11/5/2024</p>
         </Col>
       </Row>
-      <Row>
+      <Row className="mb-4">
         <Col>
           <p>
           https://www.opentable.com/ Choice Awards are based on where your fellow diners book, dine, and review. 
