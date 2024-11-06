@@ -13,7 +13,7 @@ const FeaturedBusinesses = () => {
       <Row>
         <Col>
           <p>
-            Diners’ Choice Awards are based on where your fellow diners book, dine, and review. 
+          https://www.opentable.com/ Choice Awards are based on where your fellow diners book, dine, and review. 
             Only verified diners get to review restaurants on OpenTable, so our data doesn’t lie.
           </p>
         </Col>
@@ -54,30 +54,38 @@ const FeaturedBusinesses = () => {
                 <Button variant="primary">Learn More</Button>
               </Col>
               <Col md={8} className="mb-4">
-                <Row className="align-items-center my-4 d-flex flex-column">
-                  <Col md={6}>
-                    <div className="d-flex gap-3">
-                      <Image
-                        src="https://via.placeholder.com/300x200?text=Image+1"
-                        alt="Top Image"
-                        className="w-100"
-                        rounded
-                      />
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim veniam, qui doloremque quis asperiores culpa sint dolor accusantium consequatur distinctio?</p>
-                    </div>
+          {/* First stacked row */}
+          <Row className="mb-3">
+                  <Col className="d-flex gap-3 align-items-start">
+                    <Image
+                      src="https://via.placeholder.com/300x200?text=Image+1"
+                      alt="Image 1"
+                      className="w-25"  // Adjust width if needed
+                      rounded
+                    />
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim veniam, 
+                      qui doloremque quis asperiores culpa sint dolor accusantium consequatur 
+                      distinctio?
+                    </p>
                   </Col>
-                  <Col md={6}>
-                    <div className="d-flex gap-3">
-                      <Image
-                        src="https://via.placeholder.com/300x200?text=Image+1"
-                        alt="Top Image"
-                        className="w-100"
-                        rounded
-                      />
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim veniam, qui doloremque quis asperiores culpa sint dolor accusantium consequatur distinctio?</p>
-                    </div>
+                </Row>
+                
+                {/* Second stacked row */}
+                <Row className="mb-3">
+                  <Col className="d-flex gap-3 align-items-start">
+                    <Image
+                      src="https://via.placeholder.com/300x200?text=Image+2"
+                      alt="Image 2"
+                      className="w-25"  // Adjust width if needed
+                      rounded
+                    />
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim veniam, 
+                      qui doloremque quis asperiores culpa sint dolor accusantium consequatur 
+                      distinctio?
+                    </p>
                   </Col>
-
                 </Row>
               </Col>
             </Row>
@@ -85,13 +93,214 @@ const FeaturedBusinesses = () => {
         </Tab>
 
         <Tab eventKey="food" title="Food">
-          <p>Check out what verified diners have to say about this restaurant. Only genuine feedback to help you decide where to dine!</p>
+        <Container>
+            <Row className="my-4">
+              
+              <Col md={4} className="mb-4">
+                <Carousel interval={3000}>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={`https://via.placeholder.com/300x200?text=Image+1+for+Item+1`}
+                      
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={`https://via.placeholder.com/300x200?text=Image+2+for+Item+2`}
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={`https://via.placeholder.com/300x200?text=Image+3+for+Item+3`}
+                    />
+                  </Carousel.Item>
+                </Carousel>
+                <h4 className="mt-3">Restaurant Title</h4>
+                <p>
+                  Discover amazing dining experiences at Restaurant. Indulge in exquisite cuisine and vibrant ambiance.
+                </p>
+                <Button variant="primary">Learn More</Button>
+              </Col>
+              <Col md={8} className="mb-4">
+          {/* First stacked row */}
+          <Row className="mb-3">
+                  <Col className="d-flex gap-3 align-items-start">
+                    <Image
+                      src="https://via.placeholder.com/300x200?text=Image+1"
+                      alt="Image 1"
+                      className="w-25"  // Adjust width if needed
+                      rounded
+                    />
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim veniam, 
+                      qui doloremque quis asperiores culpa sint dolor accusantium consequatur 
+                      distinctio?
+                    </p>
+                  </Col>
+                </Row>
+                
+                {/* Second stacked row */}
+                <Row className="mb-3">
+                  <Col className="d-flex gap-3 align-items-start">
+                    <Image
+                      src="https://via.placeholder.com/300x200?text=Image+2"
+                      alt="Image 2"
+                      className="w-25"  // Adjust width if needed
+                      rounded
+                    />
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim veniam, 
+                      qui doloremque quis asperiores culpa sint dolor accusantium consequatur 
+                      distinctio?
+                    </p>
+                  </Col>
+                </Row>
+              </Col>
+            </Row>
+          </Container>
         </Tab>
         <Tab eventKey="service" title="Service">
-          <p>Explore the restaurant's menu. From appetizers to desserts, get a sneak peek at the delicious offerings available.</p>
+        <Container>
+            <Row className="my-4">
+              
+              <Col md={4} className="mb-4">
+                <Carousel interval={3000}>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={`https://via.placeholder.com/300x200?text=Image+1+for+Item+1`}
+                      
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={`https://via.placeholder.com/300x200?text=Image+2+for+Item+2`}
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={`https://via.placeholder.com/300x200?text=Image+3+for+Item+3`}
+                    />
+                  </Carousel.Item>
+                </Carousel>
+                <h4 className="mt-3">Restaurant Title</h4>
+                <p>
+                  Discover amazing dining experiences at Restaurant. Indulge in exquisite cuisine and vibrant ambiance.
+                </p>
+                <Button variant="primary">Learn More</Button>
+              </Col>
+              <Col md={8} className="mb-4">
+          {/* First stacked row */}
+          <Row className="mb-3">
+                  <Col className="d-flex gap-3 align-items-start">
+                    <Image
+                      src="https://via.placeholder.com/300x200?text=Image+1"
+                      alt="Image 1"
+                      className="w-25"  // Adjust width if needed
+                      rounded
+                    />
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim veniam, 
+                      qui doloremque quis asperiores culpa sint dolor accusantium consequatur 
+                      distinctio?
+                    </p>
+                  </Col>
+                </Row>
+                
+                {/* Second stacked row */}
+                <Row className="mb-3">
+                  <Col className="d-flex gap-3 align-items-start">
+                    <Image
+                      src="https://via.placeholder.com/300x200?text=Image+2"
+                      alt="Image 2"
+                      className="w-25"  // Adjust width if needed
+                      rounded
+                    />
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim veniam, 
+                      qui doloremque quis asperiores culpa sint dolor accusantium consequatur 
+                      distinctio?
+                    </p>
+                  </Col>
+                </Row>
+              </Col>
+            </Row>
+          </Container>
         </Tab>
         <Tab eventKey="resources" title="Resources">
-          <p>Explore the restaurant's menu. From appetizers to desserts, get a sneak peek at the delicious offerings available.</p>
+        <Container>
+            <Row className="my-4">
+              
+              <Col md={4} className="mb-4">
+                <Carousel interval={3000}>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={`https://via.placeholder.com/300x200?text=Image+1+for+Item+1`}
+                      
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={`https://via.placeholder.com/300x200?text=Image+2+for+Item+2`}
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={`https://via.placeholder.com/300x200?text=Image+3+for+Item+3`}
+                    />
+                  </Carousel.Item>
+                </Carousel>
+                <h4 className="mt-3">Restaurant Title</h4>
+                <p>
+                  Discover amazing dining experiences at Restaurant. Indulge in exquisite cuisine and vibrant ambiance.
+                </p>
+                <Button variant="primary">Learn More</Button>
+              </Col>
+              <Col md={8} className="mb-4">
+          {/* First stacked row */}
+          <Row className="mb-3">
+                  <Col className="d-flex gap-3 align-items-start">
+                    <Image
+                      src="https://via.placeholder.com/300x200?text=Image+1"
+                      alt="Image 1"
+                      className="w-25"  // Adjust width if needed
+                      rounded
+                    />
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim veniam, 
+                      qui doloremque quis asperiores culpa sint dolor accusantium consequatur 
+                      distinctio?
+                    </p>
+                  </Col>
+                </Row>
+                
+                {/* Second stacked row */}
+                <Row className="mb-3">
+                  <Col className="d-flex gap-3 align-items-start">
+                    <Image
+                      src="https://via.placeholder.com/300x200?text=Image+2"
+                      alt="Image 2"
+                      className="w-25"  // Adjust width if needed
+                      rounded
+                    />
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim veniam, 
+                      qui doloremque quis asperiores culpa sint dolor accusantium consequatur 
+                      distinctio?
+                    </p>
+                  </Col>
+                </Row>
+              </Col>
+            </Row>
+          </Container>
         </Tab>
       </Tabs>
     </Container>
