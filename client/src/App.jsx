@@ -4,6 +4,7 @@ import axios from 'axios';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import MainLayout from './layouts/MainLayout';
 import Hero from './components/hero/Hero'; 
+import FeaturedBusinesses from './components/featuredBusinesses/FeaturedBusinesses';
 
 
 
@@ -29,8 +30,7 @@ function App() {
   return (
     <MainLayout>
       <Hero />
-      <h1>Welcome to the BIPOC Directory</h1>
-      <p>Discover and support BIPOC-owned businesses in your area.</p>
+      <FeaturedBusinesses />
     </MainLayout>
   )
 }

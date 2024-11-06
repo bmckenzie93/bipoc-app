@@ -3,28 +3,26 @@ import Carousel from 'react-bootstrap/Carousel';
 
 function Hero() {
   return (
-    <Carousel>
+    <Carousel style={{backgroundColor:'gray'}}>
       <Carousel.Item>
-        <img src="https://cleveronestudios.com/wp-content/uploads/2024/05/name-requests-square.jpg" alt="" />
+        <img style={{height:'400px', width:'100%'}} src="https://cleveronestudios.com/wp-content/uploads/2024/05/name-requests-square.jpg" alt="" />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3 style={{backgroundColor: 'black'}}>Welcome to the BIPOC Directory 1</h3>
+          <p style={{backgroundColor: 'black'}}>Discover and support BIPOC-owned businesses in your area.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img src="https://cleveronestudios.com/wp-content/uploads/2024/05/murals-square.jpg" alt="" />
+        <img style={{height:'400px', width:'100%'}} src="https://cleveronestudios.com/wp-content/uploads/2024/05/murals-square.jpg" alt="" />
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3 style={{backgroundColor: 'black'}}>Welcome to the BIPOC Directory 2</h3>
+          <p style={{backgroundColor: 'black'}}>Discover and support BIPOC-owned businesses in your area.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img src="https://cleveronestudios.com/wp-content/uploads/2024/05/stickers-square.jpg" alt="" />
+        <img style={{height:'400px', width:'100%'}} src="https://cleveronestudios.com/wp-content/uploads/2024/05/stickers-square.jpg" alt="" />
         <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
+          <h3 style={{backgroundColor: 'black'}}>Welcome to the BIPOC Directory 3</h3>
+          <p style={{backgroundColor: 'black'}}>Discover and support BIPOC-owned businesses in your area.</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
