@@ -1,4 +1,9 @@
 .callout-section {
-  background: linear-gradient(135deg, #0066cc, #33ccff); /* Diagonal gradient */
+  background: linear-gradient(135deg, #0066cc, #33ccff);
   color: #ffffff;
+}
+
+/* cards */
+.card-grid{
+  color: black;
 }
