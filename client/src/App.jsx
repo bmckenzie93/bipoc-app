@@ -6,6 +6,8 @@ import MainLayout from './layouts/MainLayout';
 import Hero from './components/hero/Hero'; 
 import FeaturedBusinesses from './components/featuredBusinesses/FeaturedBusinesses';
 import Callout from './components/callout/Callout';
+import Categories from './components/categories/Categories'; 
+import CardGrid from './components/cardGrid/CardGrid';
 
 
 
@@ -32,7 +34,9 @@ function App() {
     <MainLayout>
       <Hero />
       <FeaturedBusinesses />
+      <Categories />
       <Callout />
+      <CardGrid />
     </MainLayout>
   )
 }
